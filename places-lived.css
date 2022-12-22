@@ -1,0 +1,82 @@
+#hero {
+  background-image: url("images/places/beach.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 800px;
+}
+
+#hero-content {
+  background-color: rgba(0, 0, 0, 0.85);
+  border-radius: 12px;
+  box-shadow: 4px 4px 8px;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  top: 200px;
+  width: 60%;
+  max-width: 900px;
+}
+
+#hero-content h1 {
+  color: burlywood;
+  font-size: 100px;
+  margin: 0;
+  padding: 50px 50px 0;
+}
+
+#hero-content p {
+  color: burlywood;
+  font-size: 24px;
+  padding: 30px 30px 50px;
+}
+
+#locations-container {
+  background: linear-gradient(135deg, #01012f, black);
+  margin: 0 auto;
+  padding: 24px;
+}
+
+#locations {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 25px;
+  width: 90%;
+}
+
+#locations li {
+  list-style: none;
+}
+
+.location {
+  background-color: rgba(39, 40, 58, 0.8);
+  border: 7px solid antiquewhite;
+  border-radius: 8px;
+  box-shadow: 7px 7px 12px black;
+  color: antiquewhite;
+  height: 500px;
+  margin: 45px auto;
+  text-align: center;
+  width: 600px;
+}
+
+.location img {
+  background-size: contain;
+  height: 350px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.location h2 {
+  font-size: 35px;
+  text-shadow: 4px 4px 7px black;
+  -webkit-text-stroke: 1px aqua;
+}
+
+.location p {
+  font-size: 20px;
+  text-shadow: 4px 4px 7px black;
+  -webkit-text-stroke: 1px aqua;
+}
